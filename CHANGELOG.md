@@ -1,3 +1,6 @@
+## 0.26.0 (2023/10/31)
+* __Improvement__: Update all packages
+
 ## 0.25.1 (2022/07/06)
 * __Bug Fix__: [Fix request parse error for curl request without body](https://github.com/Huachao/vscode-restclient/issues/1026)
 
