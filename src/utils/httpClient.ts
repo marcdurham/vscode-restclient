@@ -19,7 +19,8 @@ import { getCurrentHttpFileName, getWorkspaceRootPath } from './workspaceUtility
 import got = require('got');
 
 const encodeUrl = require('encodeurl');
-const cookieStore = require('tough-cookie-file-store-bugfix');
+//const cookieStore = require('tough-cookie-file-store-bugfix');
+const cookieStore = require('tough-cookie');
 
 type SetCookieCallback = (err: Error | null, cookie: Cookie) => void;
 type SetCookieCallbackWithoutOptions = (err: Error, cookie: Cookie) => void;
