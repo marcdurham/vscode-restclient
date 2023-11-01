@@ -686,8 +686,13 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "-": "^0.0.1",
+    "@azure/monitor-opentelemetry-exporter": "^1.0.0-beta.17",
+    "@opentelemetry/api": "^1.6.0",
+    "@opentelemetry/instrumentation-http": "^0.44.0",
+    "@opentelemetry/node": "^0.24.0",
     "adal-node": "^0.2.4",
-    "applicationinsights": "^1.0.5",
+    "applicationinsights": "^3.0.0-beta.10",
     "aws4": "^1.9.1",
     "code-highlight-linenums": "^0.2.1",
     "combined-stream": "^1.0.5",
