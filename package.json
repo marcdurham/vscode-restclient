@@ -1,12 +1,12 @@
 {
-  "name": "rest-client",
-  "displayName": "REST Client",
-  "description": "REST Client for Visual Studio Code",
-  "version": "0.25.1",
-  "publisher": "humao",
+  "name": "http-rest-client",
+  "displayName": "HTTP REST Client",
+  "description": "HTTP REST Client for Visual Studio Code",
+  "version": "0.26.1",
+  "publisher": "marcdurham",
   "author": {
-    "name": "Huachao Mao",
-    "email": "huachaomao@gmail.com"
+    "name": "Marc Durham",
+    "email": "marcdurham@hotmail.com"
   },
   "icon": "images/rest_icon.png",
   "galleryBanner": {
@@ -15,13 +15,13 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Huachao/vscode-restclient/issues",
-    "email": "huachaomao@gmail.com"
+    "url": "https://github.com/marcdurham/vscode-restclient/issues",
+    "email": "marcdurham@hotmail.com"
   },
-  "homepage": "https://github.com/Huachao/vscode-restclient/blob/master/README.md",
+  "homepage": "https://github.com/marcdurham/vscode-restclient/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Huachao/vscode-restclient.git"
+    "url": "https://github.com/marcdurham/vscode-restclient.git"
   },
   "engines": {
     "vscode": "^1.57.0"
@@ -666,9 +666,9 @@
     }
   },
   "scripts": {
-    "vscode:prepublish": "webpack --mode production",
+    "vscode:prepublish": "webpack --mode=production",
     "webpack": "webpack --mode development",
-    "watch": "webpack --mode development --watch --info-verbosity verbose",
+    "watch": "webpack --mode development --watch",
     "tslint": "tslint --project tsconfig.json"
   },
   "devDependencies": {
@@ -682,7 +682,7 @@
     "ts-loader": "^5.3.2",
     "tslint": "^6.1.2",
     "typescript": "^3.7.3",
-    "webpack": "^5.89.0",
+    "webpack": "^5.71.0",
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
